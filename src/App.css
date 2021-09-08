@@ -9,10 +9,20 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+
+.themebutton{
+  border-radius: 1em;
+  height: 50px;
+  width: 150px;
+  font-size: large;
+  background-color: transparent;
+}
 header {
   font-size: 2rem;
 }
-
+header h1{
+  color:black;
+}
 header,
 form {
   min-height: 20vh;
