@@ -35,8 +35,7 @@ function App() {
 
   const toggleTheme = () =>{
     setDarkTheme(prevDarkTheme => !prevDarkTheme)
-    console.log(darkTheme)
-    document.body.style.backgroundImage = darkTheme ?  'linear-gradient(120deg, white 0%, #fda085 100%)': 'linear-gradient(120deg, #f6d365 0%, #fda085 100%)' ;
+    document.body.style.backgroundImage = darkTheme ? 'linear-gradient(120deg, white 0%, #fda085 100%)' : 'linear-gradient(120deg, #f6d365 0%, #fda085 100%)' ;
   }
 
 

@@ -3,9 +3,9 @@ import { ThemeContext } from '../App';
 const Todo = ({text, todo, todos, setTodos }) => {
     const darkTheme = useContext(ThemeContext)
     const themeStyles = {
-      color: darkTheme ? 'black' : 'white',
-      background: darkTheme ? 'white' : 'grey',
-    }
+        color: darkTheme ? 'black' : 'white',
+        background: darkTheme ? 'white' : 'black',
+      }
 
     const deleteHandler = () => {
         setTodos(todos.filter((el) => el.id !== todo.id))
