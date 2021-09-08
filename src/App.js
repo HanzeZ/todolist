@@ -14,7 +14,7 @@ function App() {
   const [darkTheme, setDarkTheme] = useState(true);
 
   const themeStyles = {
-    color: darkTheme ? 'white' : 'black',
+    color: darkTheme ? 'green' : 'black',
     backgroundColor: darkTheme ? 'black' : 'black',
   }
 
